@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/discover" component={Discover} />
           <Route exact path="/search" component={Search} />
         </Wrapper>
-        <Footer />
+        <Footer classguy="col-12 d-flex justify-content-center mt-5 mb-5" />
       </div>
     </Router>
     // <div className="App">

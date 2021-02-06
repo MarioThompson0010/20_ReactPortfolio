@@ -20,7 +20,7 @@ function About() {
         <Project classguy="row ml-4 mt-5">
           <div className="col-12 col-md-8">
             <section>
-              <div style="background-color: white;">
+              <div style={{backgroundColor: 'white'}}>
                 <div className="row mt-5 p-2">
 
                   <header className="col-12">
@@ -32,7 +32,7 @@ function About() {
                 <div className="row p-2">
                   <div className="col-12">
                     <img src="ResumePhoto.jpg" className="img img-thumbnail float-left mr-3"
-                      alt="Photo of Mario Thompson" />
+                      alt="resume photo" />
 
                     <p>
                       Having just finished a little stint as an enlisted guy in the Army,

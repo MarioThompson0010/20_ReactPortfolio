@@ -47,38 +47,38 @@ class Search extends Component {
         <Project classguy="row mt-5">
           <Project classguy="col-12 col-md-8">
             <section>
-              <div class="card">
-                <h5 class="card-header">Contact</h5>
-                <div class="card-body">
+              <div className="card">
+                <h5 className="card-header">Contact</h5>
+                <div className="card-body">
                   <form>
-                    <div class="row">
-                      <div class="col-12 col-md-8">
+                    <div className="row">
+                      <div className="col-12 col-md-8">
                         <p>
                           Name
-                                            <input class="form-control mr-sm-2" type="text" placeholder="Name"
+                                            <input className="form-control mr-sm-2" type="text" placeholder="Name"
                             aria-label="Search" />
                         </p>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-12 col-md-8">
+                    <div className="row">
+                      <div className="col-12 col-md-8">
                         <p>
                           Email
-                                            <input class="form-control mr-sm-2" type="email" placeholder="Email"
+                                            <input className="form-control mr-sm-2" type="email" placeholder="Email"
                             aria-label="slim" />
                         </p>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-12 col-md-8 form-group">
+                    <div className="row">
+                      <div className="col-12 col-md-8 form-group">
                         <label for="MessageArea">Message</label>
-                        <textarea class="form-control" id="MessageArea" placeholder="Message"
+                        <textarea className="form-control" id="MessageArea" placeholder="Message"
                           rows="3"></textarea>
 
                       </div>
                     </div>
                   </form>
-                  <a href="#" class="btn btn-primary">Submit</a>
+                  <a href="#" className="btn btn-primary">Submit</a>
                 </div>
               </div>
             </section>

@@ -4,7 +4,7 @@ import "../../index.css";
 
 function Footer(props) {
   return (
-    <div class="row">
+    <div className="row">
         <div  className={props.classguy} >
             <footer className="footer">
                 <h2>

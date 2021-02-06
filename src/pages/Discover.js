@@ -2,6 +2,8 @@ import React, { Component } from "react";
 //import API from "../utils/API";
 import Header from "../components/Header";
 import Project from "../components/Project";
+import Card from "../components/Card";
+
 import "../../src/index.css";
 //import Card from "../components/Card";
 //import Alert from "../components/Alert";
@@ -71,20 +73,37 @@ class Discover extends Component {
             </section>
             <section>
               <div className="row">
-                <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3 mx-0" style="max-width: 18rem;">
-                    <div className="card-header mx-0">LinkedIn</div>
-                    <div className="card-body mx-0">
-                      <h5 className="card-title">My LinkedIn Profile</h5>
-                      <p className="card-text">Click on the LinkedIn button to see my LinkedIn Profile</p>
-                      <a className="btn btn-secondary btn-lg" target="_blank"
-                        href="https://www.linkedin.com/in/mario-thompson-991b8486/">LinkedIn
-                                        Profile</a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                <Card
+                  cardHeader="Social Media"
+                  title="My LinkedIn Profile"
+                  cardText="Click on the LinkedIn button to see my LinkedIn Profile"
+                  url="https://www.linkedin.com/in/mario-thompson-991b8486/"
+                  description="Click to see my LinkedIn Profile!"
+                >
+                </Card>
+
+                <Card
+                  cardHeader="Github"
+                  title="See my GitHub Profile"
+                  cardText="See my GitHub Profile"
+                  url="https://github.com/MarioThompson0010"
+                  description="Click the link to see my GitHub Profile and several
+                  links to coding examples"
+                >
+                </Card>
+
+
+                <Card
+                  cardHeader="Resume"
+                  title="Download Resume in PDF"
+                  cardText="Click on the button to see my resume."
+                  url="./Assets/Thompson_Mario_Resume.pdf"
+                  description="Link to my resume"
+                >
+                </Card>
+
+                {/* <div className="col-12 col-md-4">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Github</div>
                     <div className="card-body">
                       <h5 className="card-title">See my GitHub Profile</h5>
@@ -92,14 +111,14 @@ class Discover extends Component {
                       links to coding examples
                                     </p>
                       <a className="btn btn-secondary btn-lg" target="_blank"
-                        href="https://github.com/MarioThompson0010">Link
+                        rel="noreferrer" href="https://github.com/MarioThompson0010">Link
                         to
                                         GitHub Profile</a>
                     </div>
                   </div>
-                </div>
-                <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                </div> */}
+                {/* <div className="col-12 col-md-4">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Resume</div>
                     <div className="card-body">
                       <h5 className="card-title">Download Resume in PDF</h5>
@@ -112,11 +131,12 @@ class Discover extends Component {
                     </div>
                   </div>
                 </div>
+               */}
               </div>
               <div className="row">
 
                 <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Exemplary Example 1</div>
                     <div className="card-body">
                       <h5 className="card-title">Weather Tracker</h5>
@@ -128,7 +148,7 @@ class Discover extends Component {
                       <img src="./Assets/ScreenshotWeather.PNG" className="margin-between-anchors grow-button"
                         width="100%" height="100%" alt="Weather Report" />
                       <a className="btn btn-secondary btn-lg margin-between-anchors" target="_blank"
-                        href="https://mariothompson0010.github.io/06_Weather_Teller/">Link to
+                        rel="noreferrer" href="https://mariothompson0010.github.io/06_Weather_Teller/">Link to
                                         deployed application</a>
                       <a className="btn btn-secondary btn-lg" target="_blank"
                         href="https://github.com/MarioThompson0010/06_Weather_Teller">Link
@@ -138,7 +158,7 @@ class Discover extends Component {
                   </div>
                 </div>
                 <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Exemplary Example 2</div>
                     <div className="card-body">
                       <h5 className="card-title">Video Game Suggester</h5>
@@ -162,7 +182,7 @@ class Discover extends Component {
                   </div>
                 </div>
                 <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Exemplary Example 3</div>
                     <div className="card-body">
                       <h5 className="card-title">Simple Scheduler</h5>
@@ -186,7 +206,7 @@ class Discover extends Component {
               </div>
               <div className="row">
                 <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Full Stack!</div>
                     <div className="card-body">
                       <h5 className="card-title">Burger Logger</h5>
@@ -211,7 +231,7 @@ class Discover extends Component {
 
 
                 <div className="col-12 col-md-4">
-                  <div className="card text-white bg-success mb-3" style="max-width: 18rem;">
+                  <div className="card text-white bg-success mb-3" style={{ maxWidth: 200 }}>
                     <div className="card-header">Full Stack Blog!</div>
                     <div className="card-body">
                       <h5 className="card-title">Forum Blog</h5>
