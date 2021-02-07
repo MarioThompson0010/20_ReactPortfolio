@@ -31,7 +31,7 @@ function About() {
                 </div>
                 <div className="row p-2">
                   <div className="col-12">
-                    <img src="ResumePhoto.jpg" className="img img-thumbnail float-left mr-3"
+                    <img src="./ResumePhoto.jpg" className="img img-thumbnail float-left mr-3"
                       alt="resume photo" />
 
                     <p>
