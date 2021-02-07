@@ -31,7 +31,13 @@ function About() {
                 </div>
                 <div className="row p-2">
                   <div className="col-12">
-                    <img src="./ResumePhoto.jpg" className="img img-thumbnail float-left mr-3"
+                    <div className="img img-thumbnail float-left mr-3" style={{ backgroundImage: `url(./ResumePhoto.jpg)` }} >
+
+                    </div>
+
+                    {/* className="img img-thumbnail float-left mr-3"   */}
+                    <img 
+                     className="card-img" src={"https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/ResumePhoto.jpg"}
                       alt="resume photo" />
 
                     <p>
