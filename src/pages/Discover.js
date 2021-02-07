@@ -11,38 +11,28 @@ import assetWorkday from "../Assets/WorkdayScheduler.PNG";
 import assetResume from "../Assets/Thompson_Mario_Resume.pdf"
 
 class Discover extends Component {
-   state = {
+  state = {
   };
-
-  // loadNextDog = () => {
-  //   // API.getRandomDog()
-  //   //   .then(res =>
-  //   //     this.setState({
-  //   //       image: res.data.message
-  //   //     })
-  //   //   )
-  //   //   .catch(err => console.log(err));
-  // };
 
   render() {
     return (
       <div>
         <Header>
-
         </Header>
+        
         <Project classguy="row mt-5 justify-content-center background-guy">
           <Project classguy="col-12">
             <section>
-              <div className="row">
-                <div className="col-12">
+              <Project classguy="row">
+                <Project classguy="col-12">
                   <h2>
                     Portfolio
                             </h2>
-                </div>
-              </div>
+                </Project>
+              </Project>
             </section>
             <section>
-              <div className="row">
+              <Project classguy="row">
                 <Card
                   cardHeader="Social Media"
                   title="My LinkedIn Profile"
@@ -62,18 +52,16 @@ class Discover extends Component {
                 >
                 </Card>
 
-
                 <Card
                   cardHeader="Resume"
                   title="Download Resume in PDF"
                   cardText="Click on the button to see my resume."
-                  // url="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/Thompson_Mario_Resume.pdf"
                   url={assetResume}
                   description="Link to my resume"
                 >
                 </Card>
-              </div>
-              <div className="row">
+              </Project>
+              <Project classguy="row">
                 <Card
                   cardHeader="Exemplary Example 1"
                   title="Weather Tracker"
@@ -82,8 +70,6 @@ class Discover extends Component {
                   url="https://mariothompson0010.github.io/06_Weather_Teller/"
                   description="Link to deployed application"
                   img={assetWeather}
-                // img="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/ScreenshotWeather.PNG"
-                // alt="Weather Report"
                 >
 
                   <a style={{ marginTop: 4 }} className="btn btn-secondary btn-lg" target="_blank"
@@ -102,8 +88,6 @@ class Discover extends Component {
                   url="https://mariothompson0010.github.io/Project_1_develop/"
                   description="Link to deployed application"
                   img={assetVid}
-                // img="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/ScreenshotWeather.PNG"
-                // alt="Weather Report"
                 >
 
                   <a className="btn btn-secondary btn-lg margin-between-anchors" style={{ marginTop: 5 }} target="_blank"
@@ -128,8 +112,7 @@ class Discover extends Component {
                                         GitHub repository</a>
                 </Card>
 
-              </div>
-
+              </Project>
             </section>
           </Project>
         </Project>
