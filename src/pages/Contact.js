@@ -8,7 +8,7 @@ import Header from "../components/Header";
 import Project from "../components/Project";
 import "../../src/index.css";
 
-class Search extends Component {
+class Contact extends Component {
   state = {
     search: "",
     breeds: [],
@@ -56,7 +56,7 @@ class Search extends Component {
                         <p>
                           Name
                                             <input className="form-control mr-sm-2" type="text" placeholder="Name"
-                            aria-label="Search" />
+                            aria-label="Contact" />
                         </p>
                       </div>
                     </div>
@@ -105,4 +105,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Contact;

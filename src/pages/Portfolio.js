@@ -10,7 +10,7 @@ import assetVid from "../Assets/VideoGame.PNG";
 import assetWorkday from "../Assets/WorkdayScheduler.PNG";
 import assetResume from "../Assets/Thompson_Mario_Resume.pdf"
 
-class Discover extends Component {
+class Portfolio extends Component {
   state = {
   };
 
@@ -19,7 +19,7 @@ class Discover extends Component {
       <div>
         <Header>
         </Header>
-        
+
         <Project classguy="row mt-5 justify-content-center background-guy">
           <Project classguy="col-12">
             <section>
@@ -122,4 +122,4 @@ class Discover extends Component {
   }
 }
 
-export default Discover;
+export default Portfolio;
