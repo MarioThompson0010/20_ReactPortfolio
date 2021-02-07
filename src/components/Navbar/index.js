@@ -7,27 +7,16 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-md sticky-top navbar-light bg-light">
       <Link to="/">
-        About me
+        <h1>
+          Mario Thompson
+        </h1>
+
       </Link>
 
-      <li className="nav-item nav-link active">
-        <Link
-          to="/"
-        // className={
-        //   window.location.pathname === "/" || window.location.pathname === "/about"
-        //     ? "nav-link active"
-        //     : "nav-link"
-        // }
-        >
-          About
-            </Link>
-      </li>
-
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myAwesomeInfo"
-            aria-controls="myAwesomeInfo" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+        aria-controls="myAwesomeInfo" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
 
       <div className="collapse navbar-collapse" id="myAwesomeInfo">
         <ul className="navbar-nav ml-auto">
@@ -35,7 +24,6 @@ function Navbar() {
           <li className="nav-item nav-link active">
             <Link
               to="/discover"
-            // className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
             >
               Portfolio
             </Link>
@@ -43,7 +31,6 @@ function Navbar() {
           <li className="nav-item nav-link active">
             <Link
               to="/search"
-            // className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>

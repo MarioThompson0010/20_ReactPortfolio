@@ -1,50 +1,30 @@
 import React from "react";
-//import Hero from "../components/Hero";
 import Header from "../components/Header";
 import resphot from "../Assets/ResumePhoto.jpg";
 import Project from "../components/Project";
-// import Row from "../components/Row";
-// import Col from "../components/Col";
 import "../../src/index.css";
 
 function About() {
   return (
     <div>
       <Header>
-
       </Header>
 
       <Project classguy="view back-image">
-
-
-
-        <div className="row ml-4 mt-5">
-          <div className="col-12 col-md-8">
+        <Project classguy="row ml-4 mt-5">
+          <Project classguy="col-12 col-md-8">
             <section>
-              <div className="back-card">
-                <div className="row mt-5 p-2">
-
+              <Project classguy="back-card">
+                <Project classguy="row mt-5 p-2">
                   <header className="col-12">
                     <h1 className="mt-3">
                       About Me
-                                </h1>
+                      </h1>
                   </header>
-                </div>
-                <div className="row p-2">
+                </Project>
+                <Project classguy="row p-2">
                   <div className="col-12">
-                    {/* <div className="img img-thumbnail float-left mr-3" style={{ backgroundImage: `url(./ResumePhoto.jpg)` }} >
-
-                    </div> */}
-{/* 
-                    <img src="ResumePhoto.jpg" class="img img-thumbnail float-left mr-3"
-                                    alt="Photo of Mario Thompson"></img> */}
-
-                    {/* className="img img-thumbnail float-left mr-3"   */}
-                    {/* <img 
-                     className="card-img" src={"https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/ResumePhoto.jpg"}
-                      alt="resume photo" /> */}
-                      <img src={resphot} className="img img-thumbnail float-left mr-3"/>
-
+                    <img src={resphot} className="img img-thumbnail float-left mr-3" />
                     <p>
                       Having just finished a little stint as an enlisted guy in the Army,
                       I began my Computer Science career in earnest. I had a great job at DHI
@@ -67,7 +47,7 @@ function About() {
                       I just got hired by The Great Plains Laboratory! I love it!
                     </p>
                   </div>
-                </div>
+                </Project>
                 <div className="row p-2">
                   <div className="col-md-12">
                     <p>
@@ -81,17 +61,11 @@ function About() {
                   </div>
                 </div>
 
-              </div>
+              </Project>
             </section>
-          </div>
-        </div>
-
-
-
-
-
+          </Project>
+        </Project>
       </Project>
-
     </div>
   );
 }
