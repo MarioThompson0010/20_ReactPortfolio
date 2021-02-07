@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/20_ReactPortfolio/static/css/main.0a06980a.chunk.css",
-    "main.js": "/20_ReactPortfolio/static/js/main.63035eae.chunk.js",
-    "main.js.map": "/20_ReactPortfolio/static/js/main.63035eae.chunk.js.map",
+    "main.js": "/20_ReactPortfolio/static/js/main.e3af8a26.chunk.js",
+    "main.js.map": "/20_ReactPortfolio/static/js/main.e3af8a26.chunk.js.map",
     "runtime-main.js": "/20_ReactPortfolio/static/js/runtime-main.02548efd.js",
     "runtime-main.js.map": "/20_ReactPortfolio/static/js/runtime-main.02548efd.js.map",
     "static/css/2.150d169a.chunk.css": "/20_ReactPortfolio/static/css/2.150d169a.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.150d169a.chunk.css.map": "/20_ReactPortfolio/static/css/2.150d169a.chunk.css.map",
     "static/css/main.0a06980a.chunk.css.map": "/20_ReactPortfolio/static/css/main.0a06980a.chunk.css.map",
     "static/js/2.9dc9629d.chunk.js.LICENSE.txt": "/20_ReactPortfolio/static/js/2.9dc9629d.chunk.js.LICENSE.txt",
+    "static/media/Project2.57af44b5.PNG": "/20_ReactPortfolio/static/media/Project2.57af44b5.PNG",
     "static/media/ScreenshotWeather.ed9bf88b.PNG": "/20_ReactPortfolio/static/media/ScreenshotWeather.ed9bf88b.PNG",
     "static/media/Thompson_Mario_Resume.9c97d2f4.pdf": "/20_ReactPortfolio/static/media/Thompson_Mario_Resume.9c97d2f4.pdf",
     "static/media/VideoGame.6f8acbf4.PNG": "/20_ReactPortfolio/static/media/VideoGame.6f8acbf4.PNG",
@@ -22,6 +23,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.9dc9629d.chunk.js",
     "static/css/main.0a06980a.chunk.css",
-    "static/js/main.63035eae.chunk.js"
+    "static/js/main.e3af8a26.chunk.js"
   ]
 }
