@@ -23,14 +23,14 @@ function Navbar() {
 
           <li className="nav-item nav-link active">
             <Link
-              to="/discover"
+              to="/portfolio"
             >
               Portfolio
             </Link>
           </li>
           <li className="nav-item nav-link active">
             <Link
-              to="/search"
+              to="/contact"
             >
               Contact
             </Link>

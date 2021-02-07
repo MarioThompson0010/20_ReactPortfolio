@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 02_ResponsivePortfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Responsive Portfolio
 
-## Available Scripts
+# Contact Information:
+## Mario Thompson
+## Email: MarioThompson0010@gmail.com
+## Phone: 801-822-4485
 
-In the project directory, you can run:
+Screenshots:
 
-### `yarn start`
+![Screenshot of portfolio](https://github.com/MarioThompson0010/MarioThompson0010.github.io/blob/master/Assets/PortfolioSplashPage.PNG)
+![Screenshot of portfolio](https://github.com/MarioThompson0010/MarioThompson0010.github.io/blob/master/Assets/ScreenshotPortfolio.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+List of technologies used: React, HTML, CSS, Bootstrap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a responsive website that utilizes Bootstrap and React.  There are three webpages: an About page (the home page), a Contacts page, and a Portfolio page. The About page, or homepage, is about me, in a nutshell.  The Contacts page contains form input boxes that take information from the user. The Contacts page will not be functional until we learn how to link the front-end to the back-end, so it is currently not functional. There's a button (or an anchor made to look like a button) that lets the user submit the info.
 
-### `yarn test`
+Boostrap does support a sticky Navbar, so I utlized that because I like a sticky navbar.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The home page (About) is basically a large card, consisting of a photo of myself, a title, and two paragraphs telling you a little bit about me.  Utilizing the Bootstrap grid system, the About page starts out with just one row and one column, responsively, with the small screen utilizing the entire screen and the medium and larger screens utilizing 2/3 of the screen.  Within that, I have a heading, and the two paragraphs.  The photo floats left, so the text wraps around the photo.
 
-### `yarn build`
+The Portfolio page consists of 6 cards.  There are two rows nested inside the main row, with a heading row, then two columns for each row. Each cell contains a card, gotten from Bootstrap.  Each card contains a link to something about my portfolio--my LinkedIn profile, and then coding samples, respectively.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Contact page consists of one main row, with three nested rows.  The nested rows are just one column each, with some sort of form input.  Bootstrap is utilized to make that anchor look like a button, after the three rows.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Link to Splashpage](https://mariothompson0010.github.io/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Direct Link to Portfolio](https://mariothompson0010.github.io/portfolio.html)
 
-### `yarn eject`
+### Weather Tracker
+[Link to weather](https://mariothompson0010.github.io/git2/homework/06_Weather/)
+List of technologies used: CSS, HTML, Javascript, JQuery, and three web APIs from openweathermap.org
+Brief Description: This tracks current weather for any given city, and displays a 5-day forecast.  Enter your city in the textbox, then click the button to see current weather.
+Screenshot:
+![Weather Viewer](https://github.com/MarioThompson0010/06_Weather_Teller/blob/main/Assets/ScreenshotWeather.PNG)
+![Weather Viewer 2](https://github.com/MarioThompson0010/06_Weather_Teller/blob/main/Assets/ScreenshotWeather2.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Group Project 1--Video Game Suggester--Note: On 2 November, 2020, the Chicken Coop API was generating a CORS error. See the video demo below.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Link to Video Games](https://mariothompson0010.github.io/Project_1_develop/)
+List of technologies used: CSS, HTML, Javascript, JQuery, and two web APIs: RAWG and Chicken Coop
+Brief Description: This suggests video games, given your preferences.  Enter keywords you think could be in the title, the platform, and or the genre.  The web app returns the results in the form of cards, complete with images and possibly video clips.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Screenshots:
+![Video Game Screenshot](https://github.com/MarioThompson0010/Project_1_develop/blob/main/assets/images/Screenshot.PNG)
+![Video Game Screenshot 2](https://github.com/MarioThompson0010/Project_1_develop/blob/main/assets/images/Screenshot2.PNG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Backup recording (since an API endpoint is down): 
+[Backup Recording](https://drive.google.com/file/d/1sZQh8cVb6db0vpdou2ocEAte4oA-N5sE/view)
+Contact information for my collaborator: David Gibbens. 
+[Link to David Gibbens](https://github.com/dgibbs8089)
 
-## Learn More
+### Group Project 2--Forum Blog
+![Forum Blog Screenshot](https://github.com/MarioThompson0010/MarioThompson0010.github.io/blob/master/Assets/Project2.PNG)
+[Link to Blog](https://github.com/MarioThompson0010/Project_2)            
+[Link to deployed application](https://fullstackbc-project-02.herokuapp.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+List of technologies used: CSS, HTML, Javascript, JQuery, React, Express, Sql, Nodejs, Handlebars
+Brief Description: This fully secure website allows the user to create a login, then post a remark about one of (or more) three important subjects: movies, books, or sports.  The user can then comment on somebody else's post.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

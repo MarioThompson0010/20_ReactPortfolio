@@ -9,6 +9,8 @@ import assetWeather from "../Assets/ScreenshotWeather.PNG";
 import assetVid from "../Assets/VideoGame.PNG";
 import assetWorkday from "../Assets/WorkdayScheduler.PNG";
 import assetResume from "../Assets/Thompson_Mario_Resume.pdf"
+import assetProject2 from "../Assets/Project2.PNG";
+
 
 class Portfolio extends Component {
   state = {
@@ -97,21 +99,23 @@ class Portfolio extends Component {
                     If Chicken Coop endpoint is still down, use this link to see product</a>
                 </Card>
 
+
+
                 <Card
                   cardHeader="Exemplary Example 3"
-                  title="Simple Scheduler"
-                  cardText=" Click on the buttons below to see the deployed application. Click the link
-                  below that one to see the code."
-                  url="https://mariothompson0010.github.io/05_Workday_Scheduler/Solved/"
+                  title="Forum Blog"
+                  cardText="This is a blog forum, similar to Reddit--you can post a comment about a subject
+                                        and you can also comment on what other people have posted.  Right now,
+                                        there are three categories: Sports, Books, and Movies.  Enjoy!"
+                  url="https://fullstackbc-project-02.herokuapp.com/members"
                   description="Link to deployed application"
-                  img={assetWorkday}
+                  img={assetProject2}
                 >
-                  <a className="btn btn-secondary btn-lg" target="_blank" style={{ marginTop: 5 }}
-                    href="https://github.com/MarioThompson0010/05_Workday_Scheduler">Link
+                  <a class="btn btn-secondary btn-lg" target="_blank"
+                    href="https://github.com/MarioThompson0010/Project_2">Link
                     to
-                                        GitHub repository</a>
+                                                         GitHub repository</a>
                 </Card>
-
               </Project>
             </section>
           </Project>
