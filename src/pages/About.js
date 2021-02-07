@@ -1,6 +1,7 @@
 import React from "react";
 //import Hero from "../components/Hero";
 import Header from "../components/Header";
+import resphot from "../Assets/ResumePhoto.jpg";
 import Project from "../components/Project";
 // import Row from "../components/Row";
 // import Col from "../components/Col";
@@ -13,14 +14,14 @@ function About() {
 
       </Header>
 
-      <Project classguy="background-image: url('lightbackground.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <Project classguy="view back-image">
 
 
 
-        <Project classguy="row ml-4 mt-5">
+        <div className="row ml-4 mt-5">
           <div className="col-12 col-md-8">
             <section>
-              <div style={{backgroundColor: 'white'}}>
+              <div className="back-card">
                 <div className="row mt-5 p-2">
 
                   <header className="col-12">
@@ -31,14 +32,18 @@ function About() {
                 </div>
                 <div className="row p-2">
                   <div className="col-12">
-                    <div className="img img-thumbnail float-left mr-3" style={{ backgroundImage: `url(./ResumePhoto.jpg)` }} >
+                    {/* <div className="img img-thumbnail float-left mr-3" style={{ backgroundImage: `url(./ResumePhoto.jpg)` }} >
 
-                    </div>
+                    </div> */}
+{/* 
+                    <img src="ResumePhoto.jpg" class="img img-thumbnail float-left mr-3"
+                                    alt="Photo of Mario Thompson"></img> */}
 
                     {/* className="img img-thumbnail float-left mr-3"   */}
-                    <img 
+                    {/* <img 
                      className="card-img" src={"https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/ResumePhoto.jpg"}
-                      alt="resume photo" />
+                      alt="resume photo" /> */}
+                      <img src={resphot} className="img img-thumbnail float-left mr-3"/>
 
                     <p>
                       Having just finished a little stint as an enlisted guy in the Army,
@@ -79,7 +84,7 @@ function About() {
               </div>
             </section>
           </div>
-        </Project>
+        </div>
 
 
 

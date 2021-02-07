@@ -1,7 +1,15 @@
 import React from "react";
 import "../../index.css";
+import assetWeather from "../../../src/Assets/ScreenshotWeather.PNG";
+import assetVid from "../../../src/Assets/VideoGame.PNG";
+import assetWorkday from "../../../src/Assets/ScreenshotWeather.PNG";
+
 function Card(props) {
     return (
+
+//         <img src="./Assets/ScreenshotWeather.PNG" class="margin-between-anchors grow-button"
+// width="100%" height="100%" alt="Weather Report">
+
         // <>
         //     <div className="col-12 col-md-4">
         //         <div className="card text-white bg-success mb-3 mx-0">
@@ -24,10 +32,10 @@ function Card(props) {
                 <div className="card-body mx-0">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.cardText}</p>
-                    {/* {
-                        (props.img !== undefined) ? <img src={props.img} className="margin-between-anchors grow-button"
-                            width="100%" height="100%" alt={props.alt} /> : null
-                    } */}
+                    {
+                        (props.img !== undefined) ? <img src={props.img} className="margin-between-anchors grow-button img-stuff"
+                             alt={props.alt} /> : null
+                    }
 {/* 
 <img className="card-img" src={image} alt="user thumbnail" />
       {!image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />} */}

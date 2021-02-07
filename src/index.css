@@ -20,9 +20,26 @@ code {
   background-color: rgb(57, 62, 138);
 }
 
+.back-card {
+  background-color: whitesmoke;
+}
+
+.back-image {
+  background-image: url('./Assets/lightbackground.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .name-font-size {
   font-size: xx-large;
   font-weight: bold;
+}
+
+.img-stuff {
+  width: 100%;
+  height: 100%;
 }
 
 

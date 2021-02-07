@@ -5,6 +5,11 @@ import Project from "../components/Project";
 import Card from "../components/Card";
 import "../../src/index.css";
 
+import assetWeather from "../Assets/ScreenshotWeather.PNG";
+import assetVid from "../Assets/VideoGame.PNG";
+import assetWorkday from "../Assets/WorkdayScheduler.PNG";
+import assetResume from "../Assets/Thompson_Mario_Resume.pdf"
+
 class Discover extends Component {
    state = {
   };
@@ -62,7 +67,8 @@ class Discover extends Component {
                   cardHeader="Resume"
                   title="Download Resume in PDF"
                   cardText="Click on the button to see my resume."
-                  url="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/Thompson_Mario_Resume.pdf"
+                  // url="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/Thompson_Mario_Resume.pdf"
+                  url={assetResume}
                   description="Link to my resume"
                 >
                 </Card>
@@ -75,6 +81,7 @@ class Discover extends Component {
                   below that one to see the code."
                   url="https://mariothompson0010.github.io/06_Weather_Teller/"
                   description="Link to deployed application"
+                  img={assetWeather}
                 // img="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/ScreenshotWeather.PNG"
                 // alt="Weather Report"
                 >
@@ -92,15 +99,16 @@ class Discover extends Component {
                   is to the deployed application. The one below it is to the repository. I worked
                   on
                   mainly the Javascript and my teammate the CSS and HTML."
-                  url="https://mariothompson0010.github.io/06_Weather_Teller/"
+                  url="https://mariothompson0010.github.io/Project_1_develop/"
                   description="Link to deployed application"
+                  img={assetVid}
                 // img="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/ScreenshotWeather.PNG"
                 // alt="Weather Report"
                 >
 
-                  <a className="btn btn-secondary btn-lg margin-between-anchors" style={{ marginTop: 4 }} target="_blank"
+                  <a className="btn btn-secondary btn-lg margin-between-anchors" style={{ marginTop: 5 }} target="_blank"
                     href="https://github.com/MarioThompson0010/Project_1_develop">Link to repository</a>
-                  <a className="btn btn-secondary btn-lg margin-between-anchors" target="_blank"
+                  <a className="btn btn-secondary btn-lg margin-between-anchors" target="_blank" style={{ marginTop: 5 }}
                     href="https://drive.google.com/file/d/1sZQh8cVb6db0vpdou2ocEAte4oA-N5sE/view">
                     If Chicken Coop endpoint is still down, use this link to see product</a>
                 </Card>
@@ -112,10 +120,9 @@ class Discover extends Component {
                   below that one to see the code."
                   url="https://mariothompson0010.github.io/05_Workday_Scheduler/Solved/"
                   description="Link to deployed application"
-                // img="https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/pages/Assets/ScreenshotWeather.PNG"
-                // alt="Weather Report"
+                  img={assetWorkday}
                 >
-                  <a className="btn btn-secondary btn-lg" target="_blank"
+                  <a className="btn btn-secondary btn-lg" target="_blank" style={{ marginTop: 5 }}
                     href="https://github.com/MarioThompson0010/05_Workday_Scheduler">Link
                     to
                                         GitHub repository</a>
