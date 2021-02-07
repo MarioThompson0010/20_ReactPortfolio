@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/20_ReactPortfolio/static/css/main.2adbeaf3.chunk.css",
-    "main.js": "/20_ReactPortfolio/static/js/main.d894e69a.chunk.js",
-    "main.js.map": "/20_ReactPortfolio/static/js/main.d894e69a.chunk.js.map",
+    "main.css": "/20_ReactPortfolio/static/css/main.0a06980a.chunk.css",
+    "main.js": "/20_ReactPortfolio/static/js/main.3f052fcf.chunk.js",
+    "main.js.map": "/20_ReactPortfolio/static/js/main.3f052fcf.chunk.js.map",
     "runtime-main.js": "/20_ReactPortfolio/static/js/runtime-main.02548efd.js",
     "runtime-main.js.map": "/20_ReactPortfolio/static/js/runtime-main.02548efd.js.map",
     "static/css/2.150d169a.chunk.css": "/20_ReactPortfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.98e77b2f.chunk.js": "/20_ReactPortfolio/static/js/2.98e77b2f.chunk.js",
-    "static/js/2.98e77b2f.chunk.js.map": "/20_ReactPortfolio/static/js/2.98e77b2f.chunk.js.map",
+    "static/js/2.9dc9629d.chunk.js": "/20_ReactPortfolio/static/js/2.9dc9629d.chunk.js",
+    "static/js/2.9dc9629d.chunk.js.map": "/20_ReactPortfolio/static/js/2.9dc9629d.chunk.js.map",
     "index.html": "/20_ReactPortfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/20_ReactPortfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.2adbeaf3.chunk.css.map": "/20_ReactPortfolio/static/css/main.2adbeaf3.chunk.css.map",
-    "static/js/2.98e77b2f.chunk.js.LICENSE.txt": "/20_ReactPortfolio/static/js/2.98e77b2f.chunk.js.LICENSE.txt"
+    "static/css/main.0a06980a.chunk.css.map": "/20_ReactPortfolio/static/css/main.0a06980a.chunk.css.map",
+    "static/js/2.9dc9629d.chunk.js.LICENSE.txt": "/20_ReactPortfolio/static/js/2.9dc9629d.chunk.js.LICENSE.txt",
+    "static/media/ScreenshotWeather.ed9bf88b.PNG": "/20_ReactPortfolio/static/media/ScreenshotWeather.ed9bf88b.PNG",
+    "static/media/Thompson_Mario_Resume.9c97d2f4.pdf": "/20_ReactPortfolio/static/media/Thompson_Mario_Resume.9c97d2f4.pdf",
+    "static/media/VideoGame.6f8acbf4.PNG": "/20_ReactPortfolio/static/media/VideoGame.6f8acbf4.PNG",
+    "static/media/WorkdayScheduler.f56364b8.PNG": "/20_ReactPortfolio/static/media/WorkdayScheduler.f56364b8.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.02548efd.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.98e77b2f.chunk.js",
-    "static/css/main.2adbeaf3.chunk.css",
-    "static/js/main.d894e69a.chunk.js"
+    "static/js/2.9dc9629d.chunk.js",
+    "static/css/main.0a06980a.chunk.css",
+    "static/js/main.3f052fcf.chunk.js"
   ]
 }
