@@ -9,8 +9,8 @@
 
 Screenshots:
 
-![Screenshot of portfolio](https://github.com/MarioThompson0010/MarioThompson0010.github.io/blob/master/Assets/PortfolioSplashPage.PNG)
-![Screenshot of portfolio](https://github.com/MarioThompson0010/MarioThompson0010.github.io/blob/master/Assets/ScreenshotPortfolio.PNG)
+![Screenshot of splash page](https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/Assets/SplashPage.PNG)
+![Screenshot of portfolio](https://github.com/MarioThompson0010/20_ReactPortfolio/blob/main/src/Assets/ScreenshotPortfolio.PNG)
 
 List of technologies used: React, HTML, CSS, Bootstrap
 
@@ -24,9 +24,9 @@ The Portfolio page consists of 6 cards.  There are two rows nested inside the ma
 
 The Contact page consists of one main row, with three nested rows.  The nested rows are just one column each, with some sort of form input.  Bootstrap is utilized to make that anchor look like a button, after the three rows.
 
-[Link to Splashpage](https://mariothompson0010.github.io/)
+[Link to Splashpage](https://mariothompson0010.github.io/20_ReactPortfolio/)
 
-[Direct Link to Portfolio](https://mariothompson0010.github.io/portfolio.html)
+[Direct Link to Portfolio](https://mariothompson0010.github.io/portfolio)
 
 ### Weather Tracker
 [Link to weather](https://mariothompson0010.github.io/git2/homework/06_Weather/)
