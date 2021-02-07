@@ -74,7 +74,7 @@ class Portfolio extends Component {
                   img={assetWeather}
                 >
 
-                  <a style={{ marginTop: 4 }} className="btn btn-secondary btn-lg" target="_blank"
+                  <a style={{ marginTop: 5 }} className="btn btn-secondary btn-lg" target="_blank"
                     href="https://github.com/MarioThompson0010/06_Weather_Teller">Link
                     to
                                         GitHub repository</a>
@@ -111,7 +111,7 @@ class Portfolio extends Component {
                   description="Link to deployed application"
                   img={assetProject2}
                 >
-                  <a class="btn btn-secondary btn-lg" target="_blank"
+                  <a class="btn btn-secondary btn-lg" target="_blank" style={{ marginTop: 5 }}
                     href="https://github.com/MarioThompson0010/Project_2">Link
                     to
                                                          GitHub repository</a>

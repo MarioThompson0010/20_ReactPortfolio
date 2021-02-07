@@ -15,7 +15,7 @@ function Card(props) {
                             alt={props.alt} /> : null
                     }
 
-                    <a className="btn btn-secondary btn-lg" rel="noreferrer" target="_blank"
+                    <a className="btn btn-secondary btn-lg" style={{ marginBottom: 5 }} rel="noreferrer" target="_blank"
                         href={props.url}>{props.description} </a>
                     {props.children}
                 </div>
