@@ -13,12 +13,12 @@ function Navbar() {
         </h1>
       </Link>
 
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myAwesomeInfo"
+      {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myAwesomeInfo"
         aria-controls="myAwesomeInfo" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
-      </button>
-
-      <Project classguy="collapse navbar-collapse" id="myAwesomeInfo">
+      </button> */}
+{/* classguy="collapse navbar-collapse" */}
+      <Project className="ml-auto">
         <ul className="navbar-nav ml-auto">
 
           <li className="nav-item nav-link active">
